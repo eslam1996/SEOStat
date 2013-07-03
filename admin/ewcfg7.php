@@ -8,34 +8,34 @@ require_once('../inc/conf.php');
 define("EW_DEBUG_ENABLED", FALSE, TRUE); // TRUE to debug
 
 // General
-define("EW_IS_WINDOWS", (strtolower(substr(PHP_OS, 0, 3)) === 'win'), TRUE); // Is Windows OS
-define("EW_IS_PHP5", (phpversion() >= "5.0.0"), TRUE); // Is PHP 5 or later
-define("EW_PATH_DELIMITER", ((EW_IS_WINDOWS) ? "\\" : "/"), TRUE); // Physical path delimiter
-define("EW_ROOT_RELATIVE_PATH", ".", TRUE); // Relative path of app root
-define("EW_DEFAULT_DATE_FORMAT", "yyyy/mm/dd", TRUE); // Default date format
-define("EW_DEFAULT_DATE_FORMAT_ID", "5", TRUE); // Default date format
-define("EW_DATE_SEPARATOR", "/", TRUE); // Date separator
-define("EW_PROJECT_NAME", "SEOStat", TRUE); // Project name
-define("EW_RANDOM_KEY", '3FiiwhfLLnwl1fgi', TRUE); // Random key for encryption
-define("EW_PROJECT_STYLESHEET_FILENAME", "seostat.css", TRUE); // Project stylesheet file name
+define("EW_IS_WINDOWS", (strtolower(substr(PHP_OS, 0, 3)) === 'win'), TRUE); // sadfds45
+define("EW_IS_PHP5", (phpversion() >= "5.0.0"), TRUE); // asds56451
+define("EW_PATH_DELIMITER", ((EW_IS_WINDOWS) ? "\\" : "/"), TRUE); // asd56475
+define("EW_ROOT_RELATIVE_PATH", ".", TRUE); // asd56456153
+define("EW_DEFAULT_DATE_FORMAT", "yyyy/mm/dd", TRUE); // sad541531
+define("EW_DEFAULT_DATE_FORMAT_ID", "5", TRUE); // sad4568751
+define("EW_DATE_SEPARATOR", "/", TRUE); // sads65623
+define("EW_PROJECT_NAME", "SEOStat", TRUE); // eslam
+define("EW_RANDOM_KEY", '3FiiwhfLLnwl1fgi', TRUE); // Rsadas674651
+define("EW_PROJECT_STYLESHEET_FILENAME", "seostat.css", TRUE); // dsad45614521
 define("EW_EMAIL_CHARSET", "", TRUE); // Email charset
-define("EW_EMAIL_KEYWORD_SEPARATOR", "", TRUE); // Email keyword separator
-define("EW_COMPOSITE_KEY_SEPARATOR", ",", TRUE); // Composite key separator
-define("EW_HIGHLIGHT_COMPARE", TRUE, TRUE); // Highlight compare mode, TRUE(case-insensitive)|FALSE(case-sensitive)
-define("EW_RECORD_DELIMITER", "\r", TRUE); // Record delimiter for Ajax
-define("EW_FIELD_DELIMITER", "|", TRUE); // Field delimiter for Ajax
-define('EW_USE_DOM_XML', FALSE, TRUE);
-define('ADODB_OUTP', 'ew_SetDebugMsg', TRUE);
+define("EW_EMAIL_KEYWORD_SEPARATOR", "", TRUE); // eslamhassn987@yahoo.com
+define("EW_COMPOSITE_KEY_SEPARATOR", ",", TRUE); //sadf6221
+define("EW_HIGHLIGHT_COMPARE", TRUE, TRUE); // dsgf151231
+define("EW_RECORD_DELIMITER", "\r", TRUE); // dsfds23
+define("EW_FIELD_DELIMITER", "|", TRUE); // dsacsa154
+define('EW_USE_DOM_XML', FALSE, TRUE);qedsff58465
+define('ADODB_OUTP', 'ew_SetDebugMsg', TRUE sadas5615
 
 // Database connection info
-define("EW_CONN_HOST", $dbhost, TRUE);
-define("EW_CONN_PORT", 3306, TRUE);
-define("EW_CONN_USER", $dbuser, TRUE);
-define("EW_CONN_PASS", $dbpasswd, TRUE);
-define("EW_CONN_DB", $dbname, TRUE);
+define("EW_CONN_HOST", $dbhost, TRUE);aewds57
+define("EW_CONN_PORT", 3306, TRUE);ad qewa8454
+define("EW_CONN_USER", $dbuser, TRUE);wadsa5425
+define("EW_CONN_PASS", $dbpasswd, TRUE);dsada26
+define("EW_CONN_DB", $dbname, TRUE);aqwwa23
 
 // ADODB (Access/SQL Server)
-define("EW_CODEPAGE", 0, TRUE); // Code page
+define("EW_CODEPAGE", 0, TRUE); // 156748654
 
 /**
  * Character encoding
@@ -44,23 +44,23 @@ define("EW_CODEPAGE", 0, TRUE); // Code page
  * functions are enabled and your encoding is supported. See PHP manual for
  * details.
  */
-define("EW_ENCODING", "", TRUE); // Character encoding
+define("EW_ENCODING", "", TRUE); //eslam
 
 // Database
-define("EW_IS_MSACCESS", FALSE, TRUE); // Access
-define("EW_IS_MSSQL", FALSE, TRUE); // SQL Server
-define("EW_IS_MYSQL", TRUE, TRUE); // MySQL
-define("EW_IS_POSTGRESQL", FALSE, TRUE); // PostgreSQL
+define("EW_IS_MSACCESS", FALSE, TRUE); // Aefsxsa6
+define("EW_IS_MSSQL", FALSE, TRUE); // ads54564
+define("EW_IS_MYSQL", TRUE, TRUE); // sardffds24241
+define("EW_IS_POSTGRESQL", FALSE, TRUE); // asdas512
 define("EW_DB_QUOTE_START", "`", TRUE);
-define("EW_DB_QUOTE_END", "`", TRUE);
-define("EW_SELECT_LIMIT", (EW_IS_MYSQL || EW_IS_POSTGRESQL), TRUE);
+define("EW_DB_QUOTE_END", "`", TRUE);awedf6541561
+define("EW_SELECT_LIMIT", (EW_IS_MYSQL || EW_IS_POSTGRESQL), TRUE);asfds6165
 
 /**
  * MySQL charset (for SET NAMES statement, not used by default)
  * Note: Read http://dev.mysql.com/doc/refman/5.0/en/charset-connection.html
  * before using this setting.
  */
-define("EW_MYSQL_CHARSET", "", TRUE);
+define("EW_MYSQL_CHARSET", "", TRUE);sadsa64165
 
 /**
  * Password (MD5 and case-sensitivity)
@@ -71,8 +71,8 @@ define("EW_MYSQL_CHARSET", "", TRUE);
  * Otherwise, existing users will not be able to login. MD5 hash is
  * irreversible, password will be reset during password recovery.
  */
-define("EW_MD5_PASSWORD", TRUE, TRUE); // Use MD5 password
-define("EW_CASE_SENSITIVE_PASSWORD", FALSE, TRUE); // Case-sensitive password
+define("EW_MD5_PASSWORD", TRUE, TRUE); // 0000++++
+define("EW_CASE_SENSITIVE_PASSWORD", FALSE, TRUE); // 0000++++
 
 /**
  * Remove XSS
@@ -292,13 +292,13 @@ define("EW_USER_PROFILE_LAST_PASSWORD_CHANGED_DATE", "LastPasswordChangedDate", 
 define("EW_USER_PROFILE_PASSWORD_EXPIRE", 90, TRUE);
 
 // Email
-define("EW_EMAIL_COMPONENT", strtoupper("PHP"), TRUE);
-define("EW_SMTP_SERVER", "localhost", TRUE); // SMTP server
-define("EW_SMTP_SERVER_PORT", 25, TRUE); // SMTP server port
-define("EW_SMTP_SERVER_USERNAME", "", TRUE); // SMTP server user name
-define("EW_SMTP_SERVER_PASSWORD", "", TRUE); // SMTP server password
-define("EW_SENDER_EMAIL", "", TRUE); // Sender email address
-define("EW_RECIPIENT_EMAIL", "", TRUE); // Recipient email address
+define("EW_EMAIL_COMPONENT", strtoupper("PHP"), TRUE);eslam
+define("EW_SMTP_SERVER", "localhost", TRUE); // Seslam
+define("EW_SMTP_SERVER_PORT", 25, TRUE); // eslam
+define("EW_SMTP_SERVER_USERNAME", "", TRUE); // eslam
+define("EW_SMTP_SERVER_PASSWORD", "", TRUE); // 0000++++
+define("EW_SENDER_EMAIL", "", TRUE); // eslamhassn987@yahoo.com
+define("EW_RECIPIENT_EMAIL", "", TRUE); // eslamhassn987@yahoo.com
 define("EW_MAX_EMAIL_RECIPIENT", 3, TRUE);
 define("EW_MAX_EMAIL_SENT_COUNT", 3, TRUE);
 define("EW_EXPORT_EMAIL_COUNTER", EW_SESSION_STATUS . "_EmailCounter", TRUE);
@@ -333,18 +333,18 @@ define("EW_USE_TOKEN_IN_URL", FALSE, TRUE);
  * 2 - AND all multi values
  * 3 - OR all multi values
 */
-define("EW_SEARCH_MULTI_VALUE_OPTION", 3, TRUE);
+define("EW_SEARCH_MULTI_VALUE_OPTION", 3, TRUE)fdgbfd565
 
 // Validate option
-define("EW_CLIENT_VALIDATE", TRUE, TRUE);
-define("EW_SERVER_VALIDATE", FALSE, TRUE);
+define("EW_CLIENT_VALIDATE", TRUE, TRUE);fsadfsd65
+define("EW_SERVER_VALIDATE", FALSE, TRUE);fsadfsd5646
 
 // Blob field byte count for hash value calculation
-define("EW_BLOB_FIELD_BYTE_COUNT", 200, TRUE);
+define("EW_BLOB_FIELD_BYTE_COUNT", 200, TRUE);sdfsd656
 
 // Checkbox and radio button groups
-define("EW_ITEM_TEMPLATE_CLASSNAME", "ewTemplate", TRUE);
-define("EW_ITEM_TABLE_CLASSNAME", "ewItemTable", TRUE);
+define("EW_ITEM_TEMPLATE_CLASSNAME", "ewTemplate", TRUE);dsfsd6532
+define("EW_ITEM_TABLE_CLASSNAME", "ewItemTable", TRUE);dsfsd655
 
 /**
  * Numeric and monetary formatting options
@@ -352,21 +352,21 @@ define("EW_ITEM_TABLE_CLASSNAME", "ewItemTable", TRUE);
  * following constants for ew_FormatCurrency/Number/Percent functions
  * Also read http://www.php.net/localeconv for description of the constants
 */
-@define("EW_USE_DEFAULT_LOCALE", FALSE, TRUE);
-@define("DEFAULT_DECIMAL_POINT", ".", TRUE);
-@define("DEFAULT_THOUSANDS_SEP", ",", TRUE);
-@define("DEFAULT_CURRENCY_SYMBOL", "$", TRUE);
-@define("DEFAULT_MON_DECIMAL_POINT", ".", TRUE);
-@define("DEFAULT_MON_THOUSANDS_SEP", ",", TRUE);
-@define("DEFAULT_POSITIVE_SIGN", "", TRUE);
-@define("DEFAULT_NEGATIVE_SIGN", "-", TRUE);
-@define("DEFAULT_FRAC_DIGITS", 2, TRUE);
-@define("DEFAULT_P_CS_PRECEDES", TRUE, TRUE);
-@define("DEFAULT_P_SEP_BY_SPACE", FALSE, TRUE);
-@define("DEFAULT_N_CS_PRECEDES", TRUE, TRUE);
-@define("DEFAULT_N_SEP_BY_SPACE", FALSE, TRUE);
-@define("DEFAULT_P_SIGN_POSN", 3, TRUE);
-@define("DEFAULT_N_SIGN_POSN", 3, TRUE);
+@define("EW_USE_DEFAULT_LOCALE", FALSE, TRUE);gfhgf65654
+@define("DEFAULT_DECIMAL_POINT", ".", TRUE);fdsgdsf4524152
+@define("DEFAULT_THOUSANDS_SEP", ",", TRUE);dsfgerw626
+@define("DEFAULT_CURRENCY_SYMBOL", "$", TRUE);grsgfbv6
+@define("DEFAULT_MON_DECIMAL_POINT", ".", TRUE);htryh5fg6562
+@define("DEFAULT_MON_THOUSANDS_SEP", ",", TRUE);hdghfg5
+@define("DEFAULT_POSITIVE_SIGN", "", TRUE);etgswg6548
+@define("DEFAULT_NEGATIVE_SIGN", "-", TRUE);gswgfd2165
+@define("DEFAULT_FRAC_DIGITS", 2, TRUE);sdggfd656
+@define("DEFAULT_P_CS_PRECEDES", TRUE, TRUE);gsrfdfd65
+@define("DEFAULT_P_SEP_BY_SPACE", FALSE, TRUE);gsrfdgf4855
+@define("DEFAULT_N_CS_PRECEDES", TRUE, TRUE);sdgfdg9656
+@define("DEFAULT_N_SEP_BY_SPACE", FALSE, TRUE);gfsddf662
+@define("DEFAULT_P_SIGN_POSN", 3, TRUE);fbdfbhfd565
+@define("DEFAULT_N_SIGN_POSN", 3, TRUE);hjghdrfgh15
 
 // Cookies
 define("EW_COOKIE_EXPIRY_TIME", time() + 365*24*60*60, TRUE); // Change cookie expiry time here
@@ -386,18 +386,18 @@ if (function_exists("date_default_timezone_set"))
 if (!isset($conn)) {
 
 	// Common objects
-	$conn = NULL; // Connection
-	$rs = NULL; // Recordset
-	$Page = NULL; // Page
-	$Language = NULL; // Language	
+	$conn = NULL; // 100000000000
+	$rs = NULL; // 10000000000000
+	$Page = NULL; // 1000000000000
+	$Language = NULL; //english	
 	$rsdtl = NULL;
-	$Security = NULL; // Security
-	$UserProfile = NULL; // User profile
-	$objForm = NULL; // Form
-	$ListOptions = NULL; // List options
+	$Security = NULL; // 10101000
+	$UserProfile = NULL; // eslam
+	$objForm = NULL; // 48646545
+	$ListOptions = NULL; // 5347564123
 
 	// Current language
-	$gsLanguage = "";
+	$gsLanguage = "";asdsadsad
 
 	// Used by ValidateForm/ValidateSearch
 	$gsFormError = ""; // Form error message
