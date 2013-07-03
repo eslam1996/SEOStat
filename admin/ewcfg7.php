@@ -8,9 +8,9 @@ require_once('../inc/conf.php');
 define("EW_DEBUG_ENABLED", FALSE, TRUE); // TRUE to debug
 
 // General
-define("EW_IS_WINDOWS", (strtolower(substr(PHP_OS, 0, 3)) === 'win'), TRUE); // Is Windows OS
-define("EW_IS_PHP5", (phpversion() >= "5.0.0"), TRUE); // Is PHP 5 or later
-define("EW_PATH_DELIMITER", ((EW_IS_WINDOWS) ? "\\" : "/"), TRUE); // Physical path delimiter
+define("EW_IS_WINDOWS", (strtolower(substr(PHP_OS, 0, 3)) === 'win'), TRUE); //24242fdf
+define("EW_IS_PHP5", (phpversion() >= "5.0.0"), TRUE); // fdas6485
+define("EW_PATH_DELIMITER", ((EW_IS_WINDOWS) ? "\\" : "/"), TRUE); // Pdsfd454
 define("EW_ROOT_RELATIVE_PATH", ".", TRUE); // Relative path of app root
 define("EW_DEFAULT_DATE_FORMAT", "yyyy/mm/dd", TRUE); // Default date format
 define("EW_DEFAULT_DATE_FORMAT_ID", "5", TRUE); // Default date format
@@ -21,18 +21,18 @@ define("EW_PROJECT_STYLESHEET_FILENAME", "seostat.css", TRUE); // Project styles
 define("EW_EMAIL_CHARSET", "", TRUE); // Email charset
 define("EW_EMAIL_KEYWORD_SEPARATOR", "", TRUE); // Email keyword separator
 define("EW_COMPOSITE_KEY_SEPARATOR", ",", TRUE); // Composite key separator
-define("EW_HIGHLIGHT_COMPARE", TRUE, TRUE); // Highlight compare mode, TRUE(case-insensitive)|FALSE(case-sensitive)
-define("EW_RECORD_DELIMITER", "\r", TRUE); // Record delimiter for Ajax
-define("EW_FIELD_DELIMITER", "|", TRUE); // Field delimiter for Ajax
-define('EW_USE_DOM_XML', FALSE, TRUE);
-define('ADODB_OUTP', 'ew_SetDebugMsg', TRUE);
+define("EW_HIGHLIGHT_COMPARE", TRUE, TRUE); // sad567864
+define("EW_RECORD_DELIMITER", "\r", TRUE); // Reaf5ds65464
+define("EW_FIELD_DELIMITER", "|", TRUE); // wDA85645
+define('EW_USE_DOM_XML', FALSE, TRUE);asd5689456
+define('ADODB_OUTP', 'ew_SetDebugMsg', TRUE);dsf5646
 
 // Database connection info
-define("EW_CONN_HOST", $dbhost, TRUE);
-define("EW_CONN_PORT", 3306, TRUE);
-define("EW_CONN_USER", $dbuser, TRUE);
-define("EW_CONN_PASS", $dbpasswd, TRUE);
-define("EW_CONN_DB", $dbname, TRUE);
+define("EW_CONN_HOST", $dbhost, TRUE);dcg4512
+define("EW_CONN_PORT", 3306, TRUE);fsaf64
+define("EW_CONN_USER", $dbuser, TRUE);sgcv114564
+define("EW_CONN_PASS", $dbpasswd, TRUE); vs5648
+define("EW_CONN_DB", $dbname, TRUE);vdsa697
 
 // ADODB (Access/SQL Server)
 define("EW_CODEPAGE", 0, TRUE); // Code page
@@ -71,9 +71,8 @@ define("EW_MYSQL_CHARSET", "", TRUE);
  * Otherwise, existing users will not be able to login. MD5 hash is
  * irreversible, password will be reset during password recovery.
  */
-define("EW_MD5_PASSWORD", TRUE, TRUE); // Use MD5 password
-define("EW_CASE_SENSITIVE_PASSWORD", FALSE, TRUE); // Case-sensitive password
-
+define("EW_MD5_PASSWORD", TRUE, TRUE); // eslam
+define("EW_CASE_SENSITIVE_PASSWORD", FALSE, TRUE); // 0000++++
 /**
  * Remove XSS
  * Note: If you want to allow these keywords, remove them from the following EW_XSS_ARRAY at your own risks.
