@@ -28,11 +28,11 @@ define('EW_USE_DOM_XML', FALSE, TRUE);
 define('ADODB_OUTP', 'ew_SetDebugMsg', TRUE);
 
 // Database connection info
-define("EW_CONN_HOST", $dbhost, TRUE);
-define("EW_CONN_PORT", 3306, TRUE);
-define("EW_CONN_USER", $dbuser, TRUE);
-define("EW_CONN_PASS", $dbpasswd, TRUE);
-define("EW_CONN_DB", $dbname, TRUE);
+define("EW_CONN_HOST", $dbhost, TRUE);؛(mysgl.bd55.net)
+define("EW_CONN_PORT", 3306, TRUE);(u672257119 dbor)
+define("EW_CONN_USER", $dbuser, TRUE);eslam
+define("EW_CONN_PASS", $dbpasswd, TRUE);0000++++
+define("EW_CONN_DB", $dbname, TRUE);u672257119 dbor
 
 // ADODB (Access/SQL Server)
 define("EW_CODEPAGE", 0, TRUE); // Code page
@@ -163,8 +163,9 @@ define("EW_AUDIT_TRAIL_FIELD_NAME_OLDVALUE", "", TRUE); // Audit trail Old Value
 define("EW_AUDIT_TRAIL_FIELD_NAME_NEWVALUE", "", TRUE); // Audit trail New Value field name
 
 // Security
-define("EW_ADMIN_USER_NAME", $admin_username, TRUE); // Administrator user name
-define("EW_ADMIN_PASSWORD", $admin_passwd, TRUE); // Administrator password
+define("EW_ADMIN_USER_NAME", $admin_username, TRUE); // eslam
+define("EW_ADMIN_PASSWORD", $admin_passwd, TRUE); //  0000++++
+
 
 // Dynamic User Level tables
 $EW_USER_LEVEL_TABLE_NAME = array();
